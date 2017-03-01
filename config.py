@@ -28,3 +28,5 @@ MIN_AREA = 200       # excludes all contours less than or equal to this Area
 THRESHOLD_SENSITIVITY = 10
 BLUR_SIZE = 10
 
+TELEGRAM_TOKEN = 'YOUR_TOKEN_HERE'
+CHAT_ID = 'chat_id'
