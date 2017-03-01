@@ -160,10 +160,10 @@ import datetime
 
 def start_recording(camera , t):
     global thread_recorder
-    chat_id= '116577547'
+    chat_id= CHAT_ID
     path = '/home/pi/images/%s.jpg' % t
     try:
-        bot = telegram.Bot(token='286145165:AAEDy8PgEqKAv-NS7-deHfwCaAfh6XCcgQQ')
+        bot = telegram.Bot(token=TELEGRAM_TOKEN)
         """
         bot.sendMessage(chat_id=chat_id,
                         text="Motion at cx=%3i cy=%3i  total_Contours=%2i  biggest_area:%3ix%3i=%5i" % (
